@@ -1,0 +1,79 @@
+body{
+    background-color: #122525cf;
+    font-family: system-ui;
+}
+.container{
+    background-color: #f4f9fa;
+    width:1000px; /*lebar*/
+    max-width: 100%; /*lebar maksimal*/
+    margin:auto; /*ruang dalam elemen*/
+    padding: 80px; /*memberikan ruang tambahan di sekitar konten dalam elemen*/
+    display: grid; 
+    grid-template-columns: 35% 60%;
+    column-gap: 5%; /*jarak antara kolom*/
+    row-gap: 30px;
+}
+.avatar img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.avatar{
+    display: flex; /*membuat tata letak mudah diatur dan fleksibel*/
+    justify-content: end;
+    align-items: center;
+}
+.name{
+    padding-left: 30px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+h2{
+    margin: 0 0 20px 0;  
+    color:rgb(15, 3, 90)
+}
+.introduction{
+    margin-right: 100px;
+    padding-left: 30px;
+    text-align: justify;
+}
+.des {
+    font-size: 20px;
+    padding: 10px;
+    border-style :groove;
+    border-width: 5px;
+    border-color: rgb(7, 66, 84);
+    border-radius: 20px;
+    font-style: oblique;
+    margin: 10px;
+}
+.experience{
+    margin-right: 100px;
+    padding-left: 30px;
+    text-align: justify;
+}
+.skills{
+    margin-top:  30px;
+}
+.item h3 {
+    font-size:larger;
+    font-family:'Franklin Gothic Medium';
+}
+.item h4 {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium';
+}
+.Tools {
+    font-size: 20px;
+    margin: auto;
+}
